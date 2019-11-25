@@ -42,7 +42,9 @@ import java.io.*
 class MainActivity : AppCompatActivity() {
     companion object {
         const val FILE_SELECT_CODE = 0
+        const val REQUEST_WRITE_STORAGE = 112
     }
+
     var api : WordsApi? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -50,7 +52,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    val REQUEST_WRITE_STORAGE = 112;
     private fun showToast(text: String, time: Int = Toast.LENGTH_SHORT) {
         Toast.makeText(this, text, time).show()
     }
@@ -62,43 +63,18 @@ class MainActivity : AppCompatActivity() {
         if (!hasPermission) {
             ActivityCompat.requestPermissions(
                 context,
-                Array<String>(1, { Manifest.permission.WRITE_EXTERNAL_STORAGE }),
+                Array(1, { Manifest.permission.WRITE_EXTERNAL_STORAGE }),
                 REQUEST_WRITE_STORAGE
             );
         }
     }
 
-    fun pickFile() {
+    private fun pickFile() {
         val intent = Intent(Intent.ACTION_GET_CONTENT)
         intent.type = "*/*"
         startActivityForResult(intent, FILE_SELECT_CODE)
     }
-    fun getPath(context: Context, uri: Uri) : String?{
-        var result: String? = ""
-        if("content".equals(uri.scheme, true))
-        {
-            val projection : Array<String> = arrayOf("_data")
-            var cursor: Cursor? = null
 
-            try{
-                cursor = context.contentResolver.query(uri, projection, null,null,null)
-                val column_index: Int = cursor!!.getColumnIndexOrThrow("_data")
-                if (cursor.moveToFirst()){
-                    val s = cursor.getType(column_index)
-                    showToast("AZAZA: " + s)
-                    return ""
-                } else {
-                    showToast("Cant move to first")
-                }
-            } catch (e: Exception) {
-                showToast("GetPath: " + e.message)
-            }
-        } else if ("file".equals(uri.scheme, true)){
-            return uri.path
-        }
-
-        return null
-    }
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         var file: File? = null
         try {
@@ -129,9 +105,6 @@ class MainActivity : AppCompatActivity() {
                 fos.write(response!!.readBytes())
                 fos.flush()
                 fos.close()
-                runOnUiThread {
-                    showToast("RESULT!: " + newFile.absolutePath)
-                }
             } catch (e: ApiException) {
                 runOnUiThread{
                     Toast.makeText(this, "Api(Code:" + e.code.toString() + "): " + e.message, Toast.LENGTH_LONG).show()
