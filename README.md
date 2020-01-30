@@ -1,5 +1,5 @@
 # Aspose.Words Cloud SDK for Java
-This repository contains test project and instructions on how to use Aspose.Words Cloud Java SDK for Android. This SDK allows you to work with Aspose.Words Cloud REST APIs in your Android applications quickly and easily, with zero initial cost.
+This repository contains test project and instructions on how to use Aspose.Words Cloud SDK for Java in Android applications. This example provides information how to work with Aspose.Words Cloud REST APIs in your Android applications quickly and easily, with zero initial cost.
 
 [Aspose.Words Cloud](https://products.aspose.cloud/words/family "Aspose.Words Cloud")  
 [API Reference](https://apireference.aspose.cloud/words/)  
@@ -15,7 +15,7 @@ This repository contains test project and instructions on how to use Aspose.Word
 
 ### Prerequisites
 
-To use Aspose Words for Cloud Java SDK you need to register an account with [Aspose Cloud](https://www.aspose.cloud/) and lookup/create App Key and SID at [Cloud Dashboard](https://dashboard.aspose.cloud/#/apps). There is free quota available. For more details, see [Aspose Cloud Pricing](https://purchase.aspose.cloud/pricing).
+To use Aspose Words Cloud SDK for Java you need to register an account with [Aspose Cloud](https://www.aspose.cloud/) and lookup/create App Key and SID at [Cloud Dashboard](https://dashboard.aspose.cloud/#/apps). There is free quota available. For more details, see [Aspose Cloud Pricing](https://purchase.aspose.cloud/pricing).
 
 ## Dependencies
 - Java 1.7+
@@ -31,7 +31,7 @@ Your feedback is very important to us. Please feel free to contact us using our 
 ## Getting Started
 1. **Sign Up**. Before you begin, you need to sign up for an account on our [Dashboard](https://dashboard.aspose.cloud/) and retrieve your [credentials](https://dashboard.aspose.cloud/#/apps).
 2. **Minimum requirements**. This SDK requires [Java 1.7 or later](https://java.com/download/).
-3. **Add Aspose.Words Cloud Java SDK to your project**. The project in this repo references [Aspose.Words Cloud Java SDK](https://github.com/aspose-words-cloud/aspose-words-cloud-java) either by placing the binary inside *app/libs* folder with manual handling of transitive dependenices (meant for internal usage only), or by simple addition of the repository dependency with configuring the project accordingly (user scenario) - the behavior is controlled with *CI* environment variable (see [build.gradle](app/build.gradle)). For the users, the following basic instructions should be applied.
+3. **Add Aspose.Words Cloud SDK for Java to your project**. The project in this repo references [Aspose.Words Cloud Java SDK](https://github.com/aspose-words-cloud/aspose-words-cloud-java) either by placing the binary inside *app/libs* folder with manual handling of transitive dependenices (meant for internal usage only), or by simple addition of the repository dependency with configuring the project accordingly (user scenario) - the behavior is controlled with *CI* environment variable (see [build.gradle](app/build.gradle)). For the users, the following basic instructions should be applied.
 
 Since this library is consuming Aspose.Words Cloud web APIs, please add *INTERNET* permission to your manifest.
 ```xml
