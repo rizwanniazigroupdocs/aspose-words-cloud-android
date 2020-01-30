@@ -1,4 +1,4 @@
-# Aspose.Words Cloud SDK for Java
+# Aspose.Words Cloud SDK for Android
 This repository contains test project and instructions on how to use Aspose.Words Cloud SDK for Java in Android applications.
 
 [Aspose.Words Cloud](https://products.aspose.cloud/words/family "Aspose.Words Cloud")  
