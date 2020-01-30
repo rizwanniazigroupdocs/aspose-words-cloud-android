@@ -1,5 +1,5 @@
 # Aspose.Words Cloud SDK for Java
-This repository contains test project and instructions on how to use Aspose.Words Cloud SDK for Java in Android applications. This example provides information how to work with Aspose.Words Cloud REST APIs in your Android applications quickly and easily, with zero initial cost.
+This repository contains test project and instructions on how to use Aspose.Words Cloud SDK for Java in Android applications.
 
 [Aspose.Words Cloud](https://products.aspose.cloud/words/family "Aspose.Words Cloud")  
 [API Reference](https://apireference.aspose.cloud/words/)  
@@ -50,7 +50,7 @@ repositories {
     ...
 }
 ```
-Add dependency to [Aspose.Words Cloud Java SDK](https://github.com/aspose-words-cloud/aspose-words-cloud-java), starting from *18.11* (previous versions may not work with Android).
+Add dependency to [Aspose.Words Cloud SDK for Java](https://github.com/aspose-words-cloud/aspose-words-cloud-java), starting from *18.11* (earlier versions may not work with Android).
 ```gradle
 dependencies {
     ...
