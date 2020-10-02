@@ -58,7 +58,7 @@ dependencies {
     ...
 }
 ```
-4. **Using the SDK**. The best way to become familiar with how to use the SDK is to read the [Developer Guide](https://docs.aspose.cloud/display/wordscloud/Developer+Guide). The [Getting Started Guide](https://docs.aspose.cloud/display/wordscloud/Getting+Started) will help you to become familiar with the common concepts.
+4. **Using the SDK**. The best way to become familiar with how to use the SDK is to read the [Developer Guide](https://docs.aspose.cloud/words/developer-guide/). The [Getting Started Guide](https://docs.aspose.cloud/words/getting-started/) will help you to become familiar with the common concepts.
 
 
 ## Resources
@@ -66,7 +66,7 @@ dependencies {
 [Website](https://www.aspose.cloud/)  
 [Product Home](https://products.aspose.cloud/words/family)  
 [API Reference](https://apireference.aspose.cloud/words/)  
-[Documentation](https://docs.aspose.cloud/display/wordscloud/Home)  
+[Documentation](https://docs.aspose.cloud/words/)  
 [Blog](https://blog.aspose.cloud/category/words/)  
  
 ## Other languages
