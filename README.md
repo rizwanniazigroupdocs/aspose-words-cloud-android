@@ -45,7 +45,7 @@ To use Aspose Words Cloud SDK for Java you need to register an account with [Asp
 
 ## Dependencies
 - Java 1.7+
-- referenced packages (see [here](pom.xml) for more details)
+- referenced packages (see [here](https://github.com/rizwanniazigroupdocs/aspose-words-cloud-java/blob/master/pom.xml) for more details)
 
 ## Licensing
  
