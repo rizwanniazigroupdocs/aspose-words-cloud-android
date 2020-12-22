@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/api-v4.0-lightgrey) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/aspose-words-cloud/aspose-words-cloud-android) [![GitHub license](https://img.shields.io/github/license/aspose-words-cloud/aspose-words-cloud-android)](https://github.com/aspose-words-cloud/aspose-words-cloud-android)
+![](https://img.shields.io/badge/api-v4.0-lightgrey) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/aspose-words-cloud/aspose-words-cloud-java) [![GitHub license](https://img.shields.io/github/license/aspose-words-cloud/aspose-words-cloud-java)](https://github.com/aspose-words-cloud/aspose-words-cloud-java)
 
 
 # Android SDK for Word Documents Processing in the Cloud
